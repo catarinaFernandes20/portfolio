@@ -1,7 +1,14 @@
 #calculadora
 {
   position: absolute;
-  top: 10%;
+  top: 25%;
+  left: 34.5%;
+}
+h4
+{
+  position: absolute;
+  top: 32%;
+  left: 34.5%;
 }
 input
 {
@@ -19,3 +26,4 @@ input
 	z-index: -1000;
   opacity: 30%;
 }
+

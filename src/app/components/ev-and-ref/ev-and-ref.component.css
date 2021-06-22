@@ -1,7 +1,19 @@
 div
 {
   position: absolute;
-  top: 10%;
+  top: 40%;
+  left: 35%;
+}
+.btn
+{
+  margin: 5px;
+  opacity: 70%;
+  background-color: #3d84a8;
+}
+input
+{
+  width: 500px;
+  opacity: 55%;
 }
 .video-fluid
 {

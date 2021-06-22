@@ -21,20 +21,20 @@ const routes: Routes = [
     path:"home", component:HomeComponent
   },
   {
-    path:"calculadora", component:CalculadoraComponent
+    path:"Calculadora", component:CalculadoraComponent
   },
   {
-    path:"cookies", component:CookiesComponent
+    path:"Cookies", component:CookiesComponent
   },
   {
-    path:"ev-and-ref", component:EvAndRefComponent
+    path:"Ev-and-Ref", component:EvAndRefComponent
   },
   {
-    path:"navbar", component:NavbarComponent
+    path:"Navbar", component:NavbarComponent
   },
-  {path:"notFound", component:ErroComponent},
-  {path:"chuck", component:ChucknorrisComponent},
-  {path:"listaDeCompras", component:ListaDeComprasComponent,
+  {path:"NotFound", component:ErroComponent},
+  {path:"Chuck Norris", component:ChucknorrisComponent},
+  {path:"Lista De Compras", component:ListaDeComprasComponent,
     children:
     [
       {path:"add", component:AddComponent},
