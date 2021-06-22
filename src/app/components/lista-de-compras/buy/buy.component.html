@@ -1,0 +1,8 @@
+
+<!-- BUY -->
+<div *ngFor="let item of artigoService.listaArtigo">
+  <div class="d-flex flex-row align-items-center justify-content-center">
+    <p class="m-5" [ngClass]="{'comprados' : item.carrinho}">{{item.nome}}</p>
+    <button (click)="comprar(item)">COMPRAR</button>
+  </div>
+</div>

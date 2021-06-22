@@ -1,0 +1,48 @@
+
+.active
+{
+  font-size: large;
+  font-weight: bold;
+
+  transition: all 1s;
+}
+
+a
+{
+  padding: 5px;
+  text-decoration: none;
+  color: beige;
+}
+div.borderYtoX a:before, div.borderYtoX
+a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+
+

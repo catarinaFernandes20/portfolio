@@ -1,0 +1,64 @@
+
+<div class="container">
+  <video class="bgVideo" autoplay loop>
+    <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+  </video>
+  <div id="imagens">
+    <img class="logo" width="400" src="assets/imagens/logo.png">
+  </div>
+</div>
+
+<div class="content" role="main">
+  <h2>Projetos</h2>
+  <p>A baixo é possivel visualizar os projetos realizados.</p>
+  <div class="card-container" id="projetos">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card-body">
+          <img class="card-img-bottom" src="assets/imagens/calculadora.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
+          <a [routerLink]="['/calculadora']" routerLinkActive="active" class="btn btn1">Calculator</a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card-body">
+          <img class="card-img-bottom" src="assets/imagens/readMeGen.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
+          <a [routerLink]="['/readMeGen']" routerLinkActive="active" class="btn btn1">ReadMe Gen</a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card-body">
+          <img class="card-img-bottom" src="assets/imagens/experiments.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
+          <a [routerLink]="['/experiments']" routerLinkActive="active" class="btn btn1">Experiments</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card-container" id="projetos">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card-body">
+          <img class="card-img-bottom" src="assets/imagens/events.jpg" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
+          <a [routerLink]="['/enAndRef']" routerLinkActive="active" class="btn btn1">Events</a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card-body">
+          <img class="card-img-bottom" src="assets/imagens/animal.jfif" alt="Card image" style="width:100%">
+        </div>
+        <div class="card-footer">
+          <a [routerLink]="['/fichaAnimal']" routerLinkActive="active" class="btn btn1">Animal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,21 @@
+#calculadora
+{
+  position: absolute;
+  top: 10%;
+}
+input
+{
+  padding: 5px;
+}
+.video-fluid
+{
+  position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+  opacity: 30%;
+}

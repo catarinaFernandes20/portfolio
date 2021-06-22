@@ -1,0 +1,14 @@
+
+  <video class="video-fluid" autoplay loop>
+    <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+  </video>
+<div id="calculadora">
+  <input type="text" [(ngModel)]="num1" (input)="operacoes()">
+  <input type="text" [(ngModel)]="num2" (input)="operacoes()">
+  <input type="text" [(ngModel)]="sinal" (input)="operacoes()">
+
+  <!--<h3>O valor da soma é {{+num1 ++ num2}} </h3>-->
+
+  <h3>O valor da soma é {{resultado}} </h3>
+</div>
+
