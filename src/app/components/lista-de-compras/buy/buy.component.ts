@@ -10,6 +10,7 @@ import { ArtigoService } from 'src/app/service/artigo.service';
 export class BuyComponent implements OnInit {
 
   artigoService : ArtigoService;
+
   constructor(lista: ArtigoService) {
     this.artigoService = lista;
    }
@@ -17,10 +18,15 @@ export class BuyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  precoTotal: number = 0;
+
   comprar(artigo: Artigo)
   {
     artigo.carrinho = true;
     console.log("Artigo", artigo)
   }
 
+  calcularTotal(artigo: Artigo) {
+    this.precoTotal += artigo.preco;
+  }
 }

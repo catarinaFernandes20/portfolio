@@ -8,18 +8,19 @@ import { ArtigoService } from 'src/app/service/artigo.service';
   styleUrls: ['./add.component.css']
 })
 export class AddComponent implements OnInit {
-  artigoService : ArtigoService;
 
+  artigoService : ArtigoService;
+  precoNumber: number = 0;
   constructor(private lista: ArtigoService) {
     this.artigoService = lista;
    }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  adicionarLista(nome, preco)
+  adicionarLista(nome:string, preco:string)
   {
-    this.artigoService.listaArtigo.push(new Artigo(nome, preco));
+    this.precoNumber = Number(preco);
+    this.artigoService.listaArtigo.push(new Artigo(nome, this.precoNumber));
   }
 
 }

@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Artigo } from '../class/artigo';
+import {Artigo} from '../class/artigo';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class ArtigoService {
   nome: string;
   preco: number;
