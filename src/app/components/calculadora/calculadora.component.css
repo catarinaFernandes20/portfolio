@@ -2,13 +2,13 @@
 {
   position: absolute;
   top: 25%;
-  left: 34.5%;
+  left: 45%;
 }
 h4
 {
   position: absolute;
-  top: 32%;
-  left: 34.5%;
+  top: 45%;
+  left: 45.5%;
 }
 input
 {
@@ -27,3 +27,10 @@ input
   opacity: 30%;
 }
 
+#sinal{
+  position:absolute;
+  width: 50px;
+  top: 35%;
+  left: 34%;
+  text-align: center;
+}

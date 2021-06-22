@@ -5,13 +5,17 @@
   font-weight: bold;
   transition: all 1s;
 }
-
 a
 {
   display: inline;
   padding: 5px;
   right: 0%;
   text-decoration: none;
-  color: rgb(53, 52, 52);
+  color:  rgb(60, 201, 236);
 }
 
+#mainNav
+{
+  position: inherit;
+  background-color: rgba(255, 255, 255, 0.582) ;
+}

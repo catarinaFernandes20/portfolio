@@ -11,3 +11,23 @@
   opacity: 30%;
 }
 
+.piadas
+{
+  position:absolute;
+  top: 30%;
+  left: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+input
+{
+  height: 36px;
+}
+.btn
+{
+  margin: 15px;
+  background-color: rgb(60, 201, 236);
+  border-color: rgb(60, 201, 236);
+
+}

@@ -2,11 +2,9 @@
     <source src="https://vod-progressive.akamaized.net/exp=1624387792~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2898%2F22%2F564490495%2F2669255364.mp4~hmac=356bfea592f07cd0872254e44265892b224c798caa363762270cf9b1c31d4180/vimeo-prod-skyfire-std-us/01/2898/22/564490495/2669255364.mp4?filename=Turtle+-+77991.mp4" type="video/mp4" />
   </video>
 <div id="calculadora" >
-  <input type="text" [(ngModel)]="num1" (input)="operacoes()">
+  <input type="text" [(ngModel)]="num1" (input)="operacoes()"> <p><br>
+  <input id="sinal" type="text" [(ngModel)]="sinal" (input)="operacoes()"> <p> <br>
   <input type="text" [(ngModel)]="num2" (input)="operacoes()">
-  <input type="text" [(ngModel)]="sinal" (input)="operacoes()">
-  <!--<h3>O valor da soma é {{+num1 ++ num2}} </h3>-->
-
 </div>
 <br>
 <h4>O resultado é: {{resultado}} </h4>
