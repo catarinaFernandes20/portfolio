@@ -15,4 +15,10 @@ div
 	z-index: -1000;
   opacity: 30%;
 }
+.btn
+{
+  background-color: rgb(60, 201, 236);
+  border-color: rgb(60, 201, 236);
+  margin: 5px;
+}
 
