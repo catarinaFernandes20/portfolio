@@ -32,7 +32,7 @@ const routes: Routes = [
   {
     path:"Navbar", component:NavbarComponent
   },
-  {path:"Erro", component:ErroComponent},
+  {path:"notFound", component:ErroComponent},
   {path:"Chuck Norris", component:ChucknorrisComponent},
   {path:"Lista De Compras", component:ListaDeComprasComponent,
     children:
